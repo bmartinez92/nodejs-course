@@ -4,9 +4,6 @@
   "description": "Comprehensive Node.js course demonstrating backend development concepts with JavaScript. Covers asynchronous programming, REST API design with Express.js, database connections (MongoDB & SQL), authentication, and scalable architecture patterns.",
   "main": "index.js",
   "scripts": {
-    "dev:1": "nodemon class-2/1.http.js",
-    "dev:2": "nodemon class-2/2.routing.js",
-    "dev:3": "nodemon class-2/3.express.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,13 +22,11 @@
   },
   "homepage": "https://github.com/bmartinez92/nodejs-course#readme",
   "dependencies": {
-    "express": "5.1.0",
     "picocolors": "1.1.1"
   },
   "devDependencies": {
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
-    "nodemon": "^3.1.10",
     "prettier": "^3.6.2",
     "standard": "^17.1.2"
   },
