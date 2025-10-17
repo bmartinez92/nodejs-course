@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-course",
+  "version": "1.0.0",
+  "description": "Comprehensive Node.js course demonstrating backend development concepts with JavaScript. Covers asynchronous programming, REST API design with Express.js, database connections (MongoDB & SQL), authentication, and scalable architecture patterns.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmartinez92/nodejs-course.git"
+  },
+  "keywords": [
+    "course",
+    "node",
+    "nodejs"
+  ],
+  "author": "Brian Valdés Martínez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmartinez92/nodejs-course/issues"
+  },
+  "homepage": "https://github.com/bmartinez92/nodejs-course#readme",
+  "dependencies": {
+    "picocolors": "1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.6.2",
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
