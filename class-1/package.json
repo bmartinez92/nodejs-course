@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-course",
+  "name": "class-1",
   "version": "1.0.0",
   "description": "Comprehensive Node.js course demonstrating backend development concepts with JavaScript. Covers asynchronous programming, REST API design with Express.js, database connections (MongoDB & SQL), authentication, and scalable architecture patterns.",
   "main": "index.js",
