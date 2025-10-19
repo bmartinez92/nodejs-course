@@ -1,0 +1,34 @@
+### GET all movies
+GET http://localhost:1234/movies
+
+### GET one movie
+GET http://localhost:1234/movies/c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf
+
+### GET movie by genre
+GET http://localhost:1234/movies?genre=DRAma
+
+### POST create movie
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+    "sql": "SELECT * FROM movies",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "director": "Frank Darabont",
+    "duration": 142,
+    "poster": "https://i.ebayimg.com/images/g/4goAAOSwMyBe7hnQ/s-l1200.webp",
+    "genre": ["Drama"],
+    "rate": 9.3
+}
+
+### PATCH update movie
+PATCH http://localhost:1234/movies/5d883239-3329-4abc-8e88-e610a4c766fa
+Content-Type: application/json
+
+{
+    "year": 1999
+}
+
+### DELETE delete movie
+DELETE http://localhost:1234/movies/28350ecb-47d3-49ca-ac89-90aaf0c578cf
