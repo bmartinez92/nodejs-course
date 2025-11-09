@@ -1,5 +1,8 @@
 import { Router } from 'express'
 import { MovieController } from '../controllers/movies.js'
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 export const moviesRouter = Router()
 
